@@ -1,0 +1,53 @@
+# ==== Secrets & environment ====
+.env
+.env.*
+*.key
+secrets.json
+config/secrets*
+
+# ==== Python ====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.Python
+*.so
+
+# ==== Virtual environments ====
+venv/
+.venv/
+env/
+ENV/
+
+# ==== Jupyter / Colab ====
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ==== Databases & checkpoints (D5 — persistence) ====
+*.sqlite3
+*.db
+checkpoints/
+*.checkpoint
+
+# ==== Logs, traces & generated artifacts ====
+*.log
+logs/
+traces/
+langsmith_traces/
+
+# ==== Docker ====
+*.env.docker
+
+# ==== OS / editor junk ====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ==== Local test/output data ====
+outputs/
+*.tmp
