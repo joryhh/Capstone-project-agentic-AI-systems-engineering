@@ -4,7 +4,7 @@
 *.key
 secrets.json
 config/secrets*
-
+ 
 # ==== Python ====
 __pycache__/
 *.py[cod]
@@ -15,39 +15,44 @@ build/
 dist/
 .Python
 *.so
-
+ 
 # ==== Virtual environments ====
 venv/
 .venv/
 env/
 ENV/
-
+ 
 # ==== Jupyter / Colab ====
 .ipynb_checkpoints/
 *.ipynb_checkpoints
-
+ 
 # ==== Databases & checkpoints (D5 — persistence) ====
+*.sqlite
 *.sqlite3
 *.db
 checkpoints/
+checkpoints*.sqlite
+loop.sqlite
 *.checkpoint
-
+data/
+ 
 # ==== Logs, traces & generated artifacts ====
 *.log
 logs/
 traces/
 langsmith_traces/
-
+ 
 # ==== Docker ====
 *.env.docker
-
+ 
 # ==== OS / editor junk ====
 .DS_Store
 Thumbs.db
 .idea/
 .vscode/
 *.swp
-
+ 
 # ==== Local test/output data ====
 outputs/
 *.tmp
+ 
