@@ -2,7 +2,7 @@
 
 **Itinera AI** is a **multi-agent travel and itinerary coordination system** that turns a trip request into a budget-checked, safety-audited, human-approved day-by-day itinerary. It is built with LangGraph, Groq (Llama 3.3 70B), real web-search tooling, SQLite checkpointing, security guardrails, structured observability, a human-in-the-loop approval gate, FastAPI, and Docker.
 
-> **Students:** Ghala Alawad, Lujain, Jory Alhassan
+> **Students:** Ghala Alawad, Lujain Aldawood, Jory Alhassan
 >
 > **Training program:** Advanced Agentic AI Systems Engineering
 >
