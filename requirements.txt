@@ -1,0 +1,10 @@
+langchain
+langgraph
+langgraph-checkpoint-sqlite
+langchain-groq
+langchain-community
+tavily-python
+fastapi
+uvicorn[standard]
+pydantic
+matplotlib
